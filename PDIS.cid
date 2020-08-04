@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TLDevice xmlns="http://www.iec.ch/61850/2006/SCL">
+    <LN lnClass="LNPDIS" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI Val="271.99" name="LNPDIS1" desc="Зона 1 Дистанционной защиты"/>
+            <DAI Val="516.78" name="LNPDIS2" desc="Зона 2 Дистанционной защиты"/>
+            <DAI Val="968.56" name="LNPDIS3" desc="Зона 3 Дистанционной защиты"/>
+            <DAI Val="1.41" name="BlkZn" desc="Блокировка коррелированной зоны LNPDIS"/>
+            <DAI name="LNPDIS" sAddr="LNPDIS"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNT" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNT" sAddr="LNT"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNRFLO" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNRFLO" sAddr="LNRFLO"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNRADR" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNRADR" sAddr="LNRADR"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNIHMI" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNIHMI" sAddr="LNIHMI"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNRBDR" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNRBDR" sAddr="LNRBDR"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNPTRC" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNPTRC" sAddr="LNPTRC"/>
+        </DOI>
+    </LN>
+    <LN lnClass="LNXCBR" inst="1" prefix="">
+        <DOI name="Obj" desc="New Object">
+            <DAI name="LNXCBR" sAddr="LNXCBR"/>
+        </DOI>
+    </LN>
+
+</TLDevice>
